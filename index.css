@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: rgb(255, 246, 232);
+}
+
+.titulo {
+    color: rgb(70, 40, 31);
+    font-size: 30px;
+    text-align: center;
+}
+
+
+#logo-site {
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    
+    justify-content: left;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+
+#barra-navegacao1 {
+    display: flex;
+    
+    /* width: 300px; */
+    align-items: center;
+    font-size: 25px;
+}
+
+
+#barra-navegacao2 {
+    display: flex;
+    margin-right: 60%;
+    width: 300px;
+    align-items: center;
+    font-size: 25px;
+}
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.banner {
+   width: 100vw;
+}
+
+#sloganId {
+    color: rgb(70, 40, 31);
+    text-align: center;
+}
+
+#convite {
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.slogan-footer {
+    font-size: 20px
+}
