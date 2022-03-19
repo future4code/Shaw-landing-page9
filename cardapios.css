@@ -30,19 +30,17 @@
 .cardapioentrada{
     display:grid;
     grid-template-columns: 1fr 1fr;
+    display:flex;
+    justify-content:space-around;
+    
     
     }
   
 .itemgaleria img {
-   max-width:400px ;
-    
+   max-width:450px ;
 }
     
-}
-.itemgaleria li {
 
-
-}
 
 
  
