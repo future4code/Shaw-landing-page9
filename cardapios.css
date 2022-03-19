@@ -1,0 +1,92 @@
+*{
+    margin:0 ;
+    padding:0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+} 
+
+
+ 
+ #banner-contato{
+
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    border: 1px solid #ffffff;
+    background: linear-gradient(#fc3232 50%, #006603d4 50%) ;
+    list-style: none;
+    justify-content: center;
+    color: #ffffff;
+} 
+.conteiner-galeria{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 300px;
+    
+    
+}
+.itemgaleria{
+    
+
+}
+
+.itemgaleria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+.itemgaleria h1{
+    background-color: back;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+ 
+/* #cardapiotexto{
+    display: flex;
+    justify-content: center;
+}  */
+/* #cardapioentrada{
+    background-color: #f08080;
+    display: flex;
+   justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+
+}
+.cardapio1 img{
+    width: 30vw;
+    height: 40vh;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    grid: 10px;
+} */
+
+
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-color:#f7dddd; */
+
+
+
+    /* background-color: #bc8f8f; */
+    
+
