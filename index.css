@@ -36,13 +36,6 @@ body{
 }
 
 
-#barra-navegacao2 {
-    display: flex;
-    margin-right: 60%;
-    width: 300px;
-    align-items: center;
-    font-size: 25px;
-}
 
 
 a:link {
@@ -54,6 +47,8 @@ a:visited {
     text-decoration: none;
 
 }
+
+
 
 
 .banner {
@@ -69,17 +64,63 @@ a:visited {
     margin-top: 20px;
 }
 
+#entradas {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.cardapio-entradas{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(40vh, 1fr));
+    grid-template-rows: auto-fill; 
+    margin: 1%;
+    gap: 1px;
+    
+}
+
+img {
+    width:100%;
+    border-radius: 20px;
+}
+
+/* .grid1 {
+    width: 300px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+
+} */
+
+.caixinha{
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+#pratos-principais{
+    margin-top: 20px;
+    font-size: 20px;
+
+}
 
 
+footer {
+    background-image: url("https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa631c35a-3e6e-4b7d-a7b0-49bddc325e29%2F4food.png?table=block&id=1895b678-e4ce-4e1f-82ea-c04f7a52704c&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=2000&userId=&cache=v2");
+    opacity: .7;
+    /* background-repeat: no-repeat; */
+}   
 
+.paragrafo{
+    font-size:25px;
 
-
-
-
-
-
-
+}
 
 .slogan-footer {
-    font-size: 20px
+    color: rgb(70, 40, 31);
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
 }
