@@ -23,23 +23,54 @@
 .conteiner-galeria{
     width: 100%;
     height: 100%;
-  
+    
     
     
 }
+
 .cardapioentrada{
+    width: 100%;
     display:grid;
     grid-template-columns: 1fr 1fr;
     display:flex;
     justify-content:space-around;
+    background-color: #d0fbd9;
+    padding:10px;
+    
     
     
     }
   
 .itemgaleria img {
-   max-width:450px ;
+   max-width:600px ;
+   border-radius: 20px;
+  
 }
-    
+.itemgaleria-princpal {
+    display:flex;
+    justify-content:space-around;
+    background-color:#d0fbd9;
+    padding:40px;
+  
+}
+.itemgaleriap img{
+    width: 30vw;
+    height:auto;
+    border-radius: 30px; 
+}
+.cardapiosobremesa{
+    border-radius: 20px;
+    background-color:rgba(241, 229, 229, 0.582)
+}
+.cardapio1 img{
+    border-radius: 30px;
+
+}
+.cardapio{
+    background-color: rgba(92, 92, 55, 0);
+}
+
+
 
 
 
