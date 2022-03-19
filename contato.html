@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -29,28 +28,141 @@
         <p class="slogan-contato"><h1>O melhor da comida italiana na sua casa</h1></p>
     </div>
     
-    <section id="contato">
+    <section id="pedido">
     
         <h1>Qual o seu pedido?</h1>
-        <h3>Entre em contato conosco!</h3>
+
+        <p class="entradas-pedido">Entradas</p>        
+                
+        <form id="entradas">
+
+            <br><input type="checkbox" id="bruschetta" name="bruschetta" value="bruschetta">
+            <label for="bruschetta">Bruschetta</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+
+            <br><input type="checkbox" id="entrada2" name="carpaccio" value="carpaccio">
+            <label for="carpaccio">Carpaccio</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>            
+
+            <br><input type="checkbox" id="entrada3" name="tabua-de-frios" value="tabua-de-frios">
+            <label for="tabua-de-frios">Tábua de frios</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+            <br><input type="checkbox" id="salada" name="salada" value="salada caprese">
+            <label for="salada">Salada Caprese</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+
+        </form>
+
+        <p class="principais-pedido">Pratos Principais</p>
+
+        <form id="pratos-principais">
+
+            <br><input type="checkbox" id="lasanha-bolonhesa" name="lasanha-bolonhesa" value="lasanha-bolonhesa">
+            <label for="lasanha-bolonhesa">Lasanha Bolonhesa</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+
+            <br><input type="checkbox" id="lasanha-espinafre" name="lasanha-espinafre" value="lasanha-espinafre">
+            <label for="lasanha-espinafre">Lasanha de Espinafre</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>            
+
+            <br><input type="checkbox" id="nhoque" name="nhoque" value="nhoque">
+            <label for="nhoque">Nhoque</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+            <br><input type="checkbox" id="raviolli" name="raviolli" value="raviolli">
+            <label for="raviolli">Raviolli</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+
+            <br><input type="checkbox" id="talharim" name="talharim" value="talharim">
+            <label for="talharim">Talharim</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+
+            <br><input type="checkbox" id="risotto-camarao" name="risotto-camarao" value="risotto-camarao">
+            <label for="risotto-camarao">Risotto de Camarão</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>            
+
+            <br><input type="checkbox" id="risotto-fungi" name="risotto-fungi" value="risotto-fungi">
+            <label for="risotto-fungi">Risotto de Fungi</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+            <br><input type="checkbox" id="pizza" name="pizza1" value="pizza1">
+            <label for="pizza1">Pizza de Margueritta</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0.5" max="10"><br>
+
+            <br><input type="checkbox" id="pizza2" name="pizza2" value="pizza2">
+            <label for="pizza2">Pizza de Muçarela</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0.5" max="10"><br>
+
+            <br><input type="checkbox" id="pizza3" name="pizza3" value="pizza3">
+            <label for="pizza3">Pizza de Calabresa</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0.5" max="10"><br>
+
+        </form>
+                
+        <p class="sobremesas-pedido">Sobremesas</p>
+
+        <form id="sobremesas">
+
+            <br><input type="checkbox" id="cannoli" name="cannoli" value="cannoli">
+            <label for="cannoli">Cannoli</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+
+            <br><input type="checkbox" id="crema-catalana" name="crema-catalana" value="crema-catalana">
+            <label for="crema-catalana">Crema Catalana</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>            
+
+            <br><input type="checkbox" id="pannacotta" name="pannacotta" value="pannacotta">
+            <label for="pannacotta">Pannacotta</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+            
+            <br><input type="checkbox" id="tiramisu" name="tiramisu" value="tiramisu">
+            <label for="tiramisu">Tiramisu</label>
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
+
+        </form>
+
     
-        <form>
-    
-            <label for="nome">Nome:</label>
+        <form id="contato">
+
+            <br><label for="nome">Nome:</label>
             <input id="nome" type="text">
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="123 456 789">       
+            
             
             <label for="email">Email:</label>
-        
-            <input id="email" type="email"><br>
+            <input id="telefone" type="email"><br>     
+                      
             
-            <br>
-            <label for="mensagem">Mensagem:</label>
-            <br>
-    
+            <br><label for="mensagem">Algum requisito especial?</label>   
             <input id="mensagem" type="text">
-            <br>
-            
-            <br><button type="submit">Enviar</button>
+                        
+            <button type="submit">Enviar</button>
+
         </form>
     
     </section>
