@@ -6,42 +6,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato Restaurante Italiano 4Food</title>
-    <link rel="stylesheet" href="/contato.css"
+    <link rel="stylesheet" href="/contato.css">
 </head>
 
 <body>
     
     <header>
+
         <h1 class="titulo">Restaurante Italiano 4Food</h1>
         
         <section id="logo-site">
-            <img class="logo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa631c35a-3e6e-4b7d-a7b0-49bddc325e29%2F4food.png?table=block&id=1895b678-e4ce-4e1f-82ea-c04f7a52704c&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=2000&userId=&cache=v2"> 
-              
-    
-        <nav id="barra-navegacao">
+            <img class="logo" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa631c35a-3e6e-4b7d-a7b0-49bddc325e29%2F4food.png?table=block&id=1895b678-e4ce-4e1f-82ea-c04f7a52704c&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=2000&userId=&cache=v2">        
+                
+        </section>
+        
+        <nav id="barra-navegacao1">
+               
             <ul id="menu">
                 <li>    
                     <a class="menu1" href="index.html">Início</a>
-                    <a class="menu2" href="contato.html">Contato</a>   
-                    <a class="menu2" href="/cardapios.html">Cardapio</a>    
+                    <a class="menu2" href="cardapios.html">Cardapio</a> 
+                    <a class="menu2" href="contato.html">Contato</a>  
+                 
                 </li>   
-            </ul>                 
-        </nav>    
-    </section>  
+            </ul>
+                   
+        </nav> 
 
     </header>
-<div id="back-menu">
-    <div id="banner-contato">
-        <img class="banner-contato" src="img\massa (2).webp" alt="imagem com diversos ingredientes usados na culinária italiana">
-        <p id="slogan-contato"><h1>O melhor da comida italiana na sua casa</h1></p>
-        <h1 class="pedido">Qual o seu pedido?</h1>
-    </div>
+
+    <div id="back-menu">
+        <div id="banner-contato">
+            <img class="banner-contato" src="img\massa (2).webp" alt="imagem com diversos ingredientes usados na culinária italiana">
+            <p id="slogan-contato"><h1>O melhor da comida italiana na sua casa</h1></p>
+            <h1 class="pedido">Qual o seu pedido?</h1>
+        </div>
+
+    </div>        
     
     <section id="pedido">
        
     
-    <form id="entradas">
-        <p class="entradas-pedido">Entradas</p>  
+        <form id="entradas">
+
+            <p class="entradas-pedido">Entradas</p>  
             <br><input type="checkbox" id="bruschetta" name="bruschetta" value="bruschetta">
             <label for="bruschetta">Bruschetta</label>
             <label for="quantidade">Quantidade</label>
@@ -63,12 +71,12 @@
             <label for="quantidade">Quantidade</label>
             <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
 
-    </form>
-    
+        </form>    
 
 
-    <form id="pratos-principais">
-         <p class="principais-pedido">Pratos Principais</p>
+        <form id="pratos-principais">
+
+            <p class="principais-pedido">Pratos Principais</p>
 
             <br><input type="checkbox" id="lasanha-bolonhesa" name="lasanha-bolonhesa" value="lasanha-bolonhesa">
             <label for="lasanha-bolonhesa">Lasanha Bolonhesa</label>
@@ -122,12 +130,13 @@
             <label for="quantidade">Quantidade</label>
             <input type="number" id="quantidade" name="quantidade" min="0.5" max="10"><br>
 
-     </form>
+        </form>
                 
        
 
-    <form id="sobremesas">
-        <p class="sobremesas-pedido">Sobremesas</p>
+        <form id="sobremesas">
+
+            <p class="sobremesas-pedido">Sobremesas</p>
             <br><input type="checkbox" id="cannoli" name="cannoli" value="cannoli">
             <label for="cannoli">Cannoli</label>
             <label for="quantidade">Quantidade</label>
@@ -149,34 +158,35 @@
             <label for="quantidade">Quantidade</label>
             <input type="number" id="quantidade" name="quantidade" min="0" max="10"><br>
 
-    </form>
+        </form>
 
     
-    <div id="grid">
-        <form id="contato">
-            <p class="entradas-pedido">Informações para entrega</p>  
-            <br><label for="nome">Nome:</label>
-            <input id="nome" type="text">
+        <div id="grid">
+            
+            <form id="contato">
+                <p class="entradas-pedido">Informações para entrega</p>  
+                <br><label for="nome">Nome:</label>
+                <input id="nome" type="text">
 
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="phone" name="phone" placeholder="123 456 789">       
-            
-            
-            <label for="email">Email:</label>
-            <input id="telefone" type="email"><br>     
-                      
-            
-            <br><label for="mensagem">Algum requisito especial?</label>   
-            <input id="mensagem" type="text">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="123 456 789">       
+                
+                
+                <label for="email">Email:</label>
+                <input id="telefone" type="email"><br>     
                         
-            <button type="submit">Enviar</button>
+                
+                <br><label for="mensagem">Algum requisito especial?</label>   
+                <input id="mensagem" type="text">
+                            
+                <button type="submit">Enviar</button>
 
-        </form>
-</div>
+            </form>
+        </div>
     
 
     </section>
-    </div>
+       
     <footer>
     
         <img class="logo-footer" src="https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa631c35a-3e6e-4b7d-a7b0-49bddc325e29%2F4food.png?table=block&id=1895b678-e4ce-4e1f-82ea-c04f7a52704c&spaceId=f97190af-c9c2-4592-9ae2-6311b6b728de&width=2000&userId=&cache=v2"> 
