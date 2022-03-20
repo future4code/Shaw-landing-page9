@@ -74,6 +74,43 @@
 
 
 
+#logo-site {
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    
+    justify-content: left;
+}
+
+.logo {
+    max-width: 300px;
+}
+
+
+
+#barra-navegacao {
+    display: flex;
+    
+    
+    align-items: center;
+    font-size: 25px;
+}
+
+
+
+
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+
+}
+
  
 /* #cardapiotexto{
     display: flex;
